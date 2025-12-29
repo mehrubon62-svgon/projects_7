@@ -7,9 +7,16 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --text-3xl: 1.875rem;
-    --text-3xl--line-height: calc(2.25 / 1.875);
+    --color-blue-700: oklch(48.8% 0.243 264.376);
+    --color-gray-400: oklch(70.7% 0.022 261.325);
+    --color-white: #fff;
+    --spacing: 0.25rem;
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
+    --text-4xl: 2.25rem;
+    --text-4xl--line-height: calc(2.5 / 2.25);
     --font-weight-bold: 700;
+    --radius-2xl: 1rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -163,8 +170,29 @@
   }
 }
 @layer utilities {
+  .mt-5 {
+    margin-top: calc(var(--spacing) * 5);
+  }
+  .mt-\[10\%\] {
+    margin-top: 10%;
+  }
+  .ml-250 {
+    margin-left: calc(var(--spacing) * 250);
+  }
+  .flex {
+    display: flex;
+  }
   .table {
     display: table;
+  }
+  .h-\[542px\] {
+    height: 542px;
+  }
+  .w-\[30\%\] {
+    width: 30%;
+  }
+  .w-\[40\%\] {
+    width: 40%;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -172,17 +200,56 @@
   .resize {
     resize: both;
   }
+  .items-center {
+    align-items: center;
+  }
+  .justify-around {
+    justify-content: space-around;
+  }
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
+  }
+  .gap-10 {
+    gap: calc(var(--spacing) * 10);
+  }
+  .rounded-2xl {
+    border-radius: var(--radius-2xl);
+  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .text-3xl {
-    font-size: var(--text-3xl);
-    line-height: var(--tw-leading, var(--text-3xl--line-height));
+  .bg-\[\#000061\] {
+    background-color: #000061;
+  }
+  .bg-blue-700 {
+    background-color: var(--color-blue-700);
+  }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
+  .p-\[7px\] {
+    padding: 7px;
+  }
+  .pt-10 {
+    padding-top: calc(var(--spacing) * 10);
+  }
+  .text-4xl {
+    font-size: var(--text-4xl);
+    line-height: var(--tw-leading, var(--text-4xl--line-height));
+  }
+  .text-\[23px\] {
+    font-size: 23px;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .text-gray-400 {
+    color: var(--color-gray-400);
+  }
+  .text-white {
+    color: var(--color-white);
   }
   .underline {
     text-decoration-line: underline;
@@ -191,6 +258,79 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+  .lg\:ml-5 {
+    @media (width >= 64rem) {
+      margin-left: calc(var(--spacing) * 5);
+    }
+  }
+  .lg\:ml-10 {
+    @media (width >= 64rem) {
+      margin-left: calc(var(--spacing) * 10);
+    }
+  }
+  .lg\:ml-14 {
+    @media (width >= 64rem) {
+      margin-left: calc(var(--spacing) * 14);
+    }
+  }
+  .lg\:ml-15 {
+    @media (width >= 64rem) {
+      margin-left: calc(var(--spacing) * 15);
+    }
+  }
+  .lg\:ml-17 {
+    @media (width >= 64rem) {
+      margin-left: calc(var(--spacing) * 17);
+    }
+  }
+  .lg\:ml-27 {
+    @media (width >= 64rem) {
+      margin-left: calc(var(--spacing) * 27);
+    }
+  }
+  .lg\:flex {
+    @media (width >= 64rem) {
+      display: flex;
+    }
+  }
+  .lg\:items-center {
+    @media (width >= 64rem) {
+      align-items: center;
+    }
+  }
+  .lg\:justify-center {
+    @media (width >= 64rem) {
+      justify-content: center;
+    }
+  }
+  .lg\:gap-5 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 5);
+    }
+  }
+  .lg\:gap-10 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 10);
+    }
+  }
+  .lg\:text-2xl {
+    @media (width >= 64rem) {
+      font-size: var(--text-2xl);
+      line-height: var(--tw-leading, var(--text-2xl--line-height));
+    }
+  }
+  .lg\:font-bold {
+    @media (width >= 64rem) {
+      --tw-font-weight: var(--font-weight-bold);
+      font-weight: var(--font-weight-bold);
+    }
+  }
+}
+.all {
+  background-image: url(./Sadi/s2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 150vh;
 }
 @property --tw-border-style {
   syntax: "*";
