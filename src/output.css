@@ -7,7 +7,6 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-900: oklch(39.6% 0.141 25.723);
     --color-white: #fff;
     --spacing: 0.25rem;
     --font-weight-extralight: 200;
@@ -192,35 +191,20 @@
   .top-\[125px\] {
     top: 125px;
   }
-  .right-\[30px\] {
-    right: 30px;
-  }
   .right-\[40px\] {
     right: 40px;
-  }
-  .right-\[45px\] {
-    right: 45px;
   }
   .bottom-\[8px\] {
     bottom: 8px;
   }
-  .bottom-\[30px\] {
-    bottom: 30px;
-  }
   .bottom-\[35px\] {
     bottom: 35px;
-  }
-  .bottom-\[40px\] {
-    bottom: 40px;
   }
   .bottom-\[105px\] {
     bottom: 105px;
   }
   .bottom-\[116px\] {
     bottom: 116px;
-  }
-  .left-\[30px\] {
-    left: 30px;
   }
   .left-\[45px\] {
     left: 45px;
@@ -231,17 +215,8 @@
   .left-\[90px\] {
     left: 90px;
   }
-  .left-\[100px\] {
-    left: 100px;
-  }
-  .left-\[140px\] {
-    left: 140px;
-  }
   .left-\[170px\] {
     left: 170px;
-  }
-  .left-\[180px\] {
-    left: 180px;
   }
   .left-\[240px\] {
     left: 240px;
@@ -264,14 +239,8 @@
   .mx-auto {
     margin-inline: auto;
   }
-  .my-\[1\] {
-    margin-block: 1;
-  }
   .my-\[20px\] {
     margin-block: 20px;
-  }
-  .my-\[115px\] {
-    margin-block: 115px;
   }
   .-mt-5 {
     margin-top: calc(var(--spacing) * -5);
@@ -303,14 +272,8 @@
   .mr-30 {
     margin-right: calc(var(--spacing) * 30);
   }
-  .mr-\[20px\] {
-    margin-right: 20px;
-  }
   .mr-\[25px\] {
     margin-right: 25px;
-  }
-  .mr-\[30px\] {
-    margin-right: 30px;
   }
   .mb-\[16px\] {
     margin-bottom: 16px;
@@ -350,12 +313,6 @@
   }
   .h-\[771px\] {
     height: 771px;
-  }
-  .w-22 {
-    width: calc(var(--spacing) * 22);
-  }
-  .w-\[1\] {
-    width: 1;
   }
   .w-\[13\%\] {
     width: 13%;
@@ -402,29 +359,14 @@
   .w-\[82px\] {
     width: 82px;
   }
-  .w-\[224p\] {
-    width: 224p;
-  }
   .w-\[224px\] {
     width: 224px;
-  }
-  .w-\[234px\] {
-    width: 234px;
   }
   .w-\[244px\] {
     width: 244px;
   }
   .w-\[262px\] {
     width: 262px;
-  }
-  .w-\[264px\] {
-    width: 264px;
-  }
-  .w-\[304px\] {
-    width: 304px;
-  }
-  .w-\[324px\] {
-    width: 324px;
   }
   .w-\[344px\] {
     width: 344px;
@@ -525,9 +467,6 @@
   .gap-\[25px\] {
     gap: 25px;
   }
-  .gap-\[30px\] {
-    gap: 30px;
-  }
   .gap-\[40px\] {
     gap: 40px;
   }
@@ -537,14 +476,8 @@
   .gap-\[77px\] {
     gap: 77px;
   }
-  .gap-\[100px\] {
-    gap: 100px;
-  }
   .gap-\[130px\] {
     gap: 130px;
-  }
-  .gap-\[140px\] {
-    gap: 140px;
   }
   .rounded-\[9px\] {
     border-radius: 9px;
@@ -606,32 +539,20 @@
   .bg-\[blue\] {
     background-color: blue;
   }
-  .bg-\[transparent\] {
-    background-color: transparent;
-  }
   .bg-\[white\] {
     background-color: white;
   }
   .bg-transparent {
     background-color: transparent;
   }
-  .bg-\[url\(\)\] {
-    background-image: url();
-  }
   .bg-\[url\(\.\.\/bg-img\.svg\)\] {
     background-image: url(../bg-img.svg);
-  }
-  .bg-\[url\(\.\.\/map\)\] {
-    background-image: url(../map);
   }
   .bg-\[url\(\.\.\/map1\.svg\)\] {
     background-image: url(../map1.svg);
   }
   .bg-\[url\(\.\.\/map2\.svg\)\] {
     background-image: url(../map2.svg);
-  }
-  .bg-\[url\(\.\.\/photo\)\] {
-    background-image: url(../photo);
   }
   .bg-\[url\(\.\.\/photo\.svg\)\] {
     background-image: url(../photo.svg);
@@ -653,12 +574,6 @@
   }
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
-  }
-  .px-\[2\] {
-    padding-inline: 2;
-  }
-  .px-\[22\] {
-    padding-inline: 22;
   }
   .px-\[23px\] {
     padding-inline: 23px;
@@ -717,9 +632,6 @@
   .pt-\[17px\] {
     padding-top: 17px;
   }
-  .pt-\[23px\] {
-    padding-top: 23px;
-  }
   .pt-\[30px\] {
     padding-top: 30px;
   }
@@ -734,9 +646,6 @@
   }
   .pr-50 {
     padding-right: calc(var(--spacing) * 50);
-  }
-  .pb-\[3\] {
-    padding-bottom: 3;
   }
   .pb-\[5px\] {
     padding-bottom: 5px;
@@ -759,9 +668,6 @@
   .pb-\[25px\] {
     padding-bottom: 25px;
   }
-  .pb-\[26px\] {
-    padding-bottom: 26px;
-  }
   .pb-\[32px\] {
     padding-bottom: 32px;
   }
@@ -779,9 +685,6 @@
   }
   .pb-\[140px\] {
     padding-bottom: 140px;
-  }
-  .pb-\[180px\] {
-    padding-bottom: 180px;
   }
   .text-center {
     text-align: center;
