@@ -1,1 +1,7 @@
 @import "tailwindcss";
+.all{
+ background-image: url(./Daler/unsplash_G7sE2S4Lab4.svg);
+ background-repeat: no-repeat;
+/* background-size: 100%; */
+ height: 110vh;
+}
